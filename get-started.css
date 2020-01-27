@@ -1,0 +1,64 @@
+ .div{
+    padding-top: 140px;
+    font-size: 25px;
+  }
+span.wave {
+  animation-name: wave-animation;    
+  animation-duration: 2.5s;          
+  animation-iteration-count: infinite;   
+  transform-origin: 70% 70%;        
+  display: inline-block;
+  
+  font-size: 100px;
+  color: blue;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate(  0.0deg) }
+   10% { transform: rotate(-10.0deg) }    
+   20% { transform: rotate( 12.0deg) }
+   30% { transform: rotate(-10.0deg) }
+   40% { transform: rotate(  9.0deg) }
+   50% { transform: rotate(  0.0deg) }    
+  100% { transform: rotate(  0.0deg) }
+}
+ #myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#myBar {
+  width: 1%;
+  height: 10px;
+  background-color: royalblue;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+#text{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 100px;
+}
+  .row{
+    padding-top: 7%;
+  
+
+
+  }
+  form{
+    background:transparent;
+    padding-top: 50px;
+    height: 400px;
+
+  }
+  body{
+     background-color: white;
+         font-size: 50px;
+  }
+  .form-control{
+    width: 45% !important;
+    height: 60px;
+    border:1px solid white !important;
+    background-color: #f7f0f0;
+
+  }
